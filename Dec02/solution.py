@@ -38,10 +38,6 @@ for input_range in inputs:
     for i in range(start_int, end_int+1):
         id_str = str(i)
         id_len = len(id_str)
-        if id_len == 2:
-            id_factors = [1]
-        else:
-            id_factors = factorise(id_len)
         if part1:
             if id_len%2 == 1:
                     continue
